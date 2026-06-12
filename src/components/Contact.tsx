@@ -22,7 +22,7 @@ const Contact = () => (
             </a>
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-6">
             {contactItems.map((item) => {
               const content = (
                 <div className="group flex items-center gap-4 rounded-2xl border border-white/70 bg-white/60 p-4 transition-all hover:-translate-y-0.5 hover:bg-white/85 sm:p-5">
@@ -34,7 +34,17 @@ const Contact = () => (
                 </div>
               );
               const conversionType = item.label === "Telefon" ? "phone" : item.label === "E-posta" ? "email" : null;
-              return item.href ? <a key={item.label} href={item.href} onClick={() => conversionType && trackContactConversion(conversionType, "contact_card")}>{content}</a> : <div key={item.label}>{content}</div>;
+              return (
+                <div key={item.label} className="w-full">
+                  {item.href ? (
+                    <a href={item.href} className="block" onClick={() => conversionType && trackContactConversion(conversionType, "contact_card")}>
+                      {content}
+                    </a>
+                  ) : (
+                    content
+                  )}
+                </div>
+              );
             })}
           </div>
         </div>
