@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bogualpcagataycaglar.com.tr/sitemap.xml
+Sitemap: https://diladilaraaytekin.com.tr/sitemap.xml

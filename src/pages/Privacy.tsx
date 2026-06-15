@@ -9,9 +9,9 @@ const Privacy = () => {
     const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     const previousDescription = description?.content;
     const previousCanonical = canonical?.href;
-    document.title = "Gizlilik ve Çerez Politikası | Bögüalp Çağatay Çağlar";
-    if (description) description.content = "Bögüalp Çağatay Çağlar web sitesi gizlilik, çerez ve Google Ads ölçüm bilgilendirmesi.";
-    if (canonical) canonical.href = "https://bogualpcagataycaglar.com.tr/gizlilik";
+    document.title = "Gizlilik ve Çerez Politikası | Dila Dilara Aytekin";
+    if (description) description.content = "Dila Dilara Aytekin web sitesi gizlilik, çerez ve Google Ads ölçüm bilgilendirmesi.";
+    if (canonical) canonical.href = "https://diladilaraaytekin.com.tr/gizlilik";
     return () => {
       document.title = previousTitle;
       if (description && previousDescription) description.content = previousDescription;
@@ -28,7 +28,7 @@ const Privacy = () => {
         <div className="space-y-8 text-base leading-8 text-foreground/70">
           <section>
             <h2 className="mb-3 text-2xl font-bold text-foreground">İletişim verileri</h2>
-            <p>Telefon, WhatsApp veya e-posta üzerinden kendi isteğinizle paylaştığınız bilgiler yalnızca iletişim talebinizi yanıtlamak ve randevu sürecini planlamak amacıyla kullanılır. Site üzerinde kişisel veri toplayan bir iletişim formu bulunmamaktadır.</p>
+            <p>Sitedeki randevu ve bilgi formu aracılığıyla girdiğiniz veya telefon, WhatsApp ve e-posta üzerinden kendi isteğinizle paylaştığınız bilgiler yalnızca randevu talebinizi yanıtlamak, atölye bilgilendirmesi yapmak ve danışmanlık seanslarınızı planlamak amacıyla kullanılır.</p>
           </section>
           <section>
             <h2 className="mb-3 text-2xl font-bold text-foreground">Ölçüm ve reklam teknolojileri</h2>
@@ -44,9 +44,9 @@ const Privacy = () => {
           </section>
           <section>
             <h2 className="mb-3 text-2xl font-bold text-foreground">İletişim</h2>
-            <p>Gizlilikle ilgili sorularınız için <a href="mailto:bogualp.cagatay@hotmail.com" className="font-semibold text-primary-dark underline">bogualp.cagatay@hotmail.com</a> adresinden iletişime geçebilirsiniz.</p>
+            <p>Gizlilikle ilgili sorularınız için <a href="mailto:iletisim@diladilaraaytekin.com.tr" className="font-semibold text-primary-dark underline">iletisim@diladilaraaytekin.com.tr</a> adresinden iletişime geçebilirsiniz.</p>
           </section>
-          <p className="border-t border-primary/15 pt-6 text-sm text-muted-foreground">Son güncelleme: 12 Haziran 2026</p>
+          <p className="border-t border-primary/15 pt-6 text-sm text-muted-foreground">Son güncelleme: 15 Haziran 2026</p>
         </div>
       </article>
     </main>

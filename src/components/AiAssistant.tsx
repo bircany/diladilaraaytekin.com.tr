@@ -22,7 +22,7 @@ export default function AiAssistant() {
     {
       id: "init-1",
       sender: "bot",
-      text: "Merhaba! Ben Uzman Psikolojik Danışman Bögüalp Çağatay Çağlar'ın dijital asistanıyım. Size seans süreçleri, MOXO dikkat testi veya randevular hakkında nasıl yardımcı olabilirim?",
+      text: "Merhaba! Ben Psikolojik Danışman & Eğitim Danışmanı Dila Dilara Aytekin'in dijital asistanıyım. Size seans süreçleri, YKS/LGS takipleri, MOXO dikkat testi veya randevular hakkında nasıl yardımcı olabilirim?",
     },
   ]);
   const [inputValue, setInputValue] = useState("");
@@ -31,13 +31,11 @@ export default function AiAssistant() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // İlk açılışta selamlama mesajının üst kısmının kaybolmasını önlemek için sadece yeni mesajlarda kaydır
     if (messages.length > 1 && messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [messages, isTyping]);
 
-  // Sayfa yüklendikten 4 saniye sonra bildirim balonunu gizle
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowNotification(false);
@@ -49,7 +47,6 @@ export default function AiAssistant() {
     setIsOpen(!isOpen);
     setShowNotification(false);
     if (!isOpen) {
-      // Google tag dönüşüm takibine asistanın açıldığını bildirebiliriz
       trackContactConversion("whatsapp", "ai_assistant_open");
     }
   };
@@ -58,43 +55,43 @@ export default function AiAssistant() {
     const text = input.toLowerCase();
 
     if (text.includes("randevu") || text.includes("görüşme") || text.includes("seans") || text.includes("randovu")) {
-      return "Randevu planlamalarımızı doğrudan telefon veya WhatsApp üzerinden yapmaktayız. Sizin için en uygun gün ve saati belirlemek için aşağıdaki 'WhatsApp ile Yazışın' veya 'Bizi Arayın' butonlarını kullanabilirsiniz. Telefon numaramız: 0 (507) 031 40 41.";
+      return "Randevu planlamalarımızı doğrudan telefon veya WhatsApp üzerinden yapmaktayız. Sizin için en uygun gün ve saati belirlemek için aşağıdaki 'WhatsApp'tan Yaz' veya 'Doğrudan Ara' butonlarını kullanabilirsiniz. Telefon numaramız: 0 (531) 235 38 86.";
     }
     if (text.includes("moxo") || text.includes("dikkat") || text.includes("test") || text.includes("attentioner")) {
-      return "MOXO Dikkat Testi, çocuk ve ergenlerde dikkat, zamanlama, dürtüsellik ve hiperaktivite alanlarını ölçen bilgisayar tabanlı objektif bir testtir. Test sonrasında detaylı raporlama yapılır ve gerekirse Attentioner Dikkat Geliştirme Programı uygulanır. Bilgi ve randevu için doğrudan ulaşabilirsiniz.";
+      return "MOXO Dikkat Performans Testi; dikkat, zamanlama, dürtüsellik ve hiperaktivite alanlarını değerlendiren bilgisayar tabanlı objektif bir testtir. Ayrıca 7-18 yaş grubu için Attentioner Dikkat Geliştirme Programı da uygulamaktayız. Detaylı bilgi ve test randevusu almak için doğrudan bize ulaşabilirsiniz.";
     }
     if (
       text.includes("alan") ||
       text.includes("hizmet") ||
       text.includes("destek") ||
-      text.includes("emdr") ||
-      text.includes("çift") ||
-      text.includes("aile") ||
       text.includes("ergen") ||
+      text.includes("yetişkin") ||
       text.includes("bireysel") ||
       text.includes("kaygı") ||
-      text.includes("sınav")
+      text.includes("sınav") ||
+      text.includes("yks") ||
+      text.includes("lgs")
     ) {
-      return "Uzmanımız; EMDR Terapisi, Çift ve Aile Danışmanlığı, Bireysel Psikolojik Danışmanlık, Ergen Danışmanlığı, Ebeveyn Danışmanlığı, Sınav Kaygısı ve Kariyer Danışmanlığı alanlarında profesyonel destek sunmaktadır. Detaylı bilgi almak için bizimle iletişime geçebilirsiniz.";
+      return "Dila Dilara Aytekin; Ergen ve Genç Yetişkin Danışmanlığı, YKS ve LGS Eğitim Danışmanlığı (akademik planlama ve bireysel takip), Sınav Kaygısı ve Performans Yönetimi, ACT (Kabul ve Adanmışlık Terapisi) temelli seanslar ve atölye çalışmaları yürütmektedir.";
     }
     if (
       text.includes("konum") ||
       text.includes("adres") ||
       text.includes("nerede") ||
-      text.includes("ordu") ||
-      text.includes("altınordu") ||
+      text.includes("samsun") ||
+      text.includes("atakum") ||
       text.includes("iletisim") ||
       text.includes("telefon") ||
       text.includes("numara") ||
       text.includes("ulaşım")
     ) {
-      return "Ofisimiz Altınordu / Ordu'da hizmet vermektedir. Detaylı adres ve konum bilgisi için 0 (507) 031 40 41 numaralı telefondan bizi arayabilir ya da WhatsApp üzerinden doğrudan konum talep edebilirsiniz.";
+      return "Ofisimiz (Çağ Psikoloji) Samsun Atakum'dadır: Körfez Mahallesi Atakum Bulvarı No:21/11 A Blok Kat:1 Daire:11 Atakum / Samsun. Görüşmelerimizi yüz yüze veya online olarak yürütüyoruz. İletişim numaramız: 0 (531) 235 38 86.";
     }
     if (text.includes("ücret") || text.includes("fiyat") || text.includes("bütçe") || text.includes("seans ücreti")) {
-      return "Seans ücretlerimiz uygulanacak çalışma alanına (bireysel danışmanlık, EMDR, dikkat testleri vb.) göre değişiklik göstermektedir. Güncel ücret bilgisi almak için lütfen WhatsApp üzerinden mesaj gönderin veya bizi arayın.";
+      return "Danışmanlık seansı ve akademik takip ücretlerimiz seans türüne (bireysel danışmanlık, YKS/LGS takibi, dikkat testleri vb.) göre değişmektedir. Detaylı bilgi almak için lütfen WhatsApp üzerinden yazın ya da bizi arayın.";
     }
 
-    return "Anlıyorum. Size en doğru ve detaylı bilgiyi sunabilmemiz için lütfen 0 (507) 031 40 41 numarasından bizi arayın ya da doğrudan WhatsApp butonumuza tıklayarak bize yazın. Uzmanımız en kısa sürede size geri dönecektir.";
+    return "Anlıyorum. Sorunuza en net ve detaylı yanıtı verebilmemiz için lütfen 0 (531) 235 38 86 numarasından bizi arayın ya da aşağıdaki butona tıklayarak doğrudan WhatsApp'tan mesaj yazın. En kısa sürede geri dönüş sağlayacağız.";
   };
 
   const handleSendMessage = (textToSend: string) => {
@@ -110,7 +107,6 @@ export default function AiAssistant() {
     setInputValue("");
     setIsTyping(true);
 
-    // AI yanıt simülasyonu
     setTimeout(() => {
       const botReply = getBotResponse(textToSend);
       const newBotMessage: Message = {
@@ -140,12 +136,12 @@ export default function AiAssistant() {
             <div className="flex items-center gap-3">
               <div className="relative">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground shadow-soft">
-                  BÇ
+                  DA
                 </span>
                 <span className="absolute bottom-0 right-0 h-3 w-3 rounded-full border-2 border-white bg-green-500" />
               </div>
               <div>
-                <h4 className="font-heading text-sm font-bold text-foreground">Dijital Asistan</h4>
+                <h4 className="font-heading text-sm font-bold text-foreground">Dila Dilara Aytekin</h4>
                 <p className="text-[11px] font-medium text-green-600">Çevrimiçi</p>
               </div>
             </div>
@@ -211,7 +207,7 @@ export default function AiAssistant() {
           {/* İletişim / Whatsapp / Arama Kısayolları */}
           <div className="grid grid-cols-2 gap-2 border-t border-primary/10 bg-white p-3">
             <a
-              href="https://wa.me/905070314041"
+              href="https://wa.me/905312353886"
               target="_blank"
               rel="noreferrer"
               onClick={() => trackContactConversion("whatsapp", "ai_assistant_chat_whatsapp")}
@@ -220,7 +216,7 @@ export default function AiAssistant() {
               <ArrowRight className="h-3.5 w-3.5" /> WhatsApp'tan Yaz
             </a>
             <a
-              href="tel:+905070314041"
+              href="tel:+905312353886"
               onClick={() => trackContactConversion("phone", "ai_assistant_chat_phone")}
               className="flex items-center justify-center gap-2 rounded-xl bg-foreground/5 py-2.5 text-xs font-bold text-foreground hover:bg-foreground/10 transition-colors"
             >

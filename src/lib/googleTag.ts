@@ -1,5 +1,5 @@
 type ConsentValue = "granted" | "denied";
-type ContactType = "phone" | "whatsapp" | "email";
+type ContactType = "phone" | "whatsapp" | "email" | "form";
 
 declare global {
   interface Window {
@@ -8,7 +8,7 @@ declare global {
   }
 }
 
-const consentStorageKey = "bcc_google_consent";
+const consentStorageKey = "dda_google_consent";
 const googleTagId = import.meta.env.VITE_GOOGLE_TAG_ID?.trim();
 const googleAdsId = import.meta.env.VITE_GOOGLE_ADS_ID?.trim();
 
@@ -16,6 +16,7 @@ const conversionLabels: Partial<Record<ContactType, string>> = {
   phone: import.meta.env.VITE_GOOGLE_ADS_PHONE_CONVERSION_LABEL?.trim(),
   whatsapp: import.meta.env.VITE_GOOGLE_ADS_WHATSAPP_CONVERSION_LABEL?.trim(),
   email: import.meta.env.VITE_GOOGLE_ADS_EMAIL_CONVERSION_LABEL?.trim(),
+  form: import.meta.env.VITE_GOOGLE_ADS_FORM_CONVERSION_LABEL?.trim(),
 };
 
 const setupDataLayer = () => {

@@ -6,7 +6,7 @@ import { trackContactConversion } from "@/lib/googleTag";
 const questions = [
   {
     question: "Hangi alanlarda psikolojik danışmanlık desteği sunuluyor?",
-    answer: "Bireysel danışmanlık, EMDR, çift ve aile danışmanlığı, ergen ve ebeveyn danışmanlığı, sınav kaygısı, eğitim ve kariyer danışmanlığı alanlarında destek sunulmaktadır. Çocuk ve ergenler için MOXO Dikkat Testi ve Attentioner Dikkat Geliştirme Programı da uygulanmaktadır.",
+    answer: "Ergen ve yetişkin danışmanlığı, YKS/LGS eğitim danışmanlığı, sınav kaygısı ve stres yönetimi, ACT (Kabul ve Adanmışlık Terapisi), mindfulness temelli çalışmalar ile Attentioner Dikkat Programı ve MOXO Dikkat Testi alanlarında destek sunulmaktadır.",
   },
   {
     question: "İlk görüşme nasıl ilerliyor?",
@@ -17,8 +17,8 @@ const questions = [
     answer: "MOXO; dikkat, zamanlama, dürtüsellik ve hareketlilik performansını değerlendirmeye yardımcı olan bilgisayar tabanlı bir testtir. Uygulamanın uygunluğu ön görüşmede değerlendirilir.",
   },
   {
-    question: "Ordu'da yüz yüze görüşme için nasıl randevu alınır?",
-    answer: "Altınordu / Ordu'daki görüşmeler için telefon veya WhatsApp üzerinden iletişime geçebilirsiniz. Uygun gün ve saat, karşılıklı olarak planlanır.",
+    question: "Samsun'da yüz yüze görüşme için nasıl randevu alınır?",
+    answer: "Samsun Atakum'daki (Çağ Psikoloji) görüşmeler veya online seanslar için telefon veya WhatsApp üzerinden iletişime geçebilirsiniz. Uygun gün ve saat, karşılıklı olarak planlanır.",
   },
 ];
 
@@ -28,14 +28,14 @@ const Faq = () => (
       <div className="animate-blur-in">
         <p className="section-kicker">Merak Edilenler</p>
         <h2 className="section-title text-gradient-dark">Danışmanlık süreci hakkında sık sorulan sorular.</h2>
-        <p className="section-copy">Ordu'da psikolojik danışmanlık, dikkat değerlendirmesi ve randevu süreciyle ilgili temel bilgileri burada bulabilirsiniz.</p>
+        <p className="section-copy">Samsun'da psikolojik danışmanlık, dikkat değerlendirmesi ve randevu süreciyle ilgili temel bilgileri burada bulabilirsiniz.</p>
         
         {/* FAQ Sidebar CTA */}
         <div className="mt-8 rounded-2xl border border-primary/10 bg-secondary/35 p-6">
           <h4 className="font-heading text-base font-bold text-foreground">Aklınıza takılan başka bir konu mu var?</h4>
           <p className="mt-1 text-xs text-foreground/60">Süreç ve seans detayları hakkında bilgi edinmek için bize doğrudan sorabilirsiniz.</p>
           <a
-            href="https://wa.me/905070314041"
+            href="https://wa.me/905312353886"
             target="_blank"
             rel="noreferrer"
             onClick={() => trackContactConversion("whatsapp", "faq_cta")}
