@@ -259,7 +259,7 @@ export default function Articles() {
                   <img
                     src={article.imgUrl}
                     alt={article.title}
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className={`h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 ${article.id === 'act-ile-sefkat-gelistirme' ? 'object-top' : ''}`}
                     loading="lazy"
                   />
                   <div className="absolute left-4 top-4 rounded-full bg-white/80 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-primary-dark backdrop-blur-sm">
@@ -344,7 +344,7 @@ export default function Articles() {
                 <img
                   src={selectedArticle.imgUrl}
                   alt={selectedArticle.title}
-                  className="h-full w-full object-cover"
+                  className={`h-full w-full object-cover ${selectedArticle.id === 'act-ile-sefkat-gelistirme' ? 'object-top' : ''}`}
                 />
               </div>
               {selectedArticle.paragraphs.map((p, idx) => {

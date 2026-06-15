@@ -33,14 +33,9 @@ const Navbar = () => {
         </div>
       </a>
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 gap-4">
-        <a href="#hero" className="group flex items-center gap-3" aria-label="Ana sayfa">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground shadow-soft transition-transform group-hover:rotate-6">
-            DA
-          </span>
-          <span className="hidden sm:block">
-            <span className="block font-heading text-sm font-bold leading-tight text-foreground">Dila Dilara Aytekin</span>
-            <span className="block text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">Psikolojik Danışman | Eğitim Danışmanı</span>
-          </span>
+        <a href="#hero" className="group block" aria-label="Ana sayfa">
+          <span className="block font-heading text-base sm:text-lg font-bold leading-tight text-foreground transition-colors group-hover:text-primary-dark">Dila Dilara Aytekin</span>
+          <span className="block text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">Psikolojik Danışman | Eğitim Danışmanı</span>
         </a>
 
         <div className="hidden items-center gap-2.5 xl:gap-5 xl:flex">

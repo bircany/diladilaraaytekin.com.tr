@@ -57,41 +57,53 @@ const Contact = () => {
         <div className="contact-panel relative overflow-hidden rounded-[2.5rem] px-6 py-12 sm:px-12 lg:px-16 lg:py-16">
           <div className="relative grid items-start gap-12 lg:grid-cols-[1fr_1.1fr]">
             {/* Sol Kolon - İletişim Bilgileri */}
-            <div className="space-y-8">
-              <div>
-                <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-primary-dark">İletişim & Randevu</p>
-                <h2 className="mb-6 max-w-xl text-3xl font-bold leading-tight text-gradient-dark sm:text-5xl">Kendinize ayıracağınız bir görüşmeyle başlayın.</h2>
-                <p className="max-w-xl text-sm leading-relaxed text-foreground/75 sm:text-base">
-                  Danışmanlık süreci, atölye takvimi ve randevu planlaması hakkında bilgi almak için telefon, Instagram veya WhatsApp üzerinden doğrudan iletişime geçebilir ya da yandaki formu doldurabilirsiniz.
-                </p>
+            <div className="space-y-8 flex flex-col justify-between h-full">
+              <div className="space-y-6">
+                <div>
+                  <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-primary-dark">İletişim & Randevu</p>
+                  <h2 className="mb-6 max-w-xl text-3xl font-bold leading-tight text-gradient-dark sm:text-5xl">Kendinize ayıracağınız bir görüşmeyle başlayın.</h2>
+                  <p className="max-w-xl text-sm leading-relaxed text-foreground/75 sm:text-base">
+                    Danışmanlık süreci, atölye takvimi ve randevu planlaması hakkında bilgi almak için telefon, Instagram veya WhatsApp üzerinden doğrudan iletişime geçebilir ya da yandaki formu doldurabilirsiniz.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  {contactItems.map((item) => {
+                    const content = (
+                      <div className="group flex items-center gap-4 rounded-2xl border border-white/70 bg-white/60 p-4 transition-all hover:-translate-y-0.5 hover:bg-white/85 sm:p-5">
+                        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
+                          <item.icon className="h-5 w-5" />
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">{item.label}</span>
+                          <span className="mt-0.5 block break-words font-semibold text-foreground text-sm sm:text-base">{item.value}</span>
+                        </span>
+                      </div>
+                    );
+                    const conversionType = item.label === "Telefon" ? "phone" : item.label === "Instagram" ? "instagram" : item.label === "E-posta" ? "email" : null;
+                    return (
+                      <div key={item.label} className="w-full">
+                        {item.href ? (
+                          <a href={item.href} target="_blank" rel="noreferrer" className="block" onClick={() => conversionType && trackContactConversion(conversionType, "contact_card")}>
+                            {content}
+                          </a>
+                        ) : (
+                          content
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
 
-              <div className="space-y-4">
-                {contactItems.map((item) => {
-                  const content = (
-                    <div className="group flex items-center gap-4 rounded-2xl border border-white/70 bg-white/60 p-4 transition-all hover:-translate-y-0.5 hover:bg-white/85 sm:p-5">
-                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
-                        <item.icon className="h-5 w-5" />
-                      </span>
-                      <span className="min-w-0">
-                        <span className="block text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">{item.label}</span>
-                        <span className="mt-0.5 block break-words font-semibold text-foreground text-sm sm:text-base">{item.value}</span>
-                      </span>
-                    </div>
-                  );
-                  const conversionType = item.label === "Telefon" ? "phone" : item.label === "Instagram" ? "instagram" : item.label === "E-posta" ? "email" : null;
-                  return (
-                    <div key={item.label} className="w-full">
-                      {item.href ? (
-                        <a href={item.href} target="_blank" rel="noreferrer" className="block" onClick={() => conversionType && trackContactConversion(conversionType, "contact_card")}>
-                          {content}
-                        </a>
-                      ) : (
-                        content
-                      )}
-                    </div>
-                  );
-                })}
+              {/* Portrait Image (14.jpg) to use the last photo */}
+              <div className="relative overflow-hidden rounded-[2rem] border-4 border-white bg-white/40 shadow-soft aspect-[3/2] w-full max-w-[420px] mx-auto lg:mx-0">
+                <img
+                  src="/14.jpg"
+                  alt="Dila Dilara Aytekin"
+                  className="h-full w-full object-cover scale-[1.22] hover:scale-[1.28] transition-transform duration-700"
+                  loading="lazy"
+                />
               </div>
             </div>
 
