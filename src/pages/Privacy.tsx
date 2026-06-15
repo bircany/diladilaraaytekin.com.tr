@@ -28,7 +28,7 @@ const Privacy = () => {
         <div className="space-y-8 text-base leading-8 text-foreground/70">
           <section>
             <h2 className="mb-3 text-2xl font-bold text-foreground">İletişim verileri</h2>
-            <p>Sitedeki randevu ve bilgi formu aracılığıyla girdiğiniz veya telefon, WhatsApp ve e-posta üzerinden kendi isteğinizle paylaştığınız bilgiler yalnızca randevu talebinizi yanıtlamak, atölye bilgilendirmesi yapmak ve danışmanlık seanslarınızı planlamak amacıyla kullanılır.</p>
+            <p>Sitedeki randevu ve bilgi formu aracılığıyla girdiğiniz veya telefon, WhatsApp ve e-posta üzerinden kendi isteğinizle paylaştığınız bilgiler yalnızca randevu talebinizi yanıtlamak, atölye bilgilendirmesi yapmak ve danışmanlık görüşmelerinizi planlamak amacıyla kullanılır.</p>
           </section>
           <section>
             <h2 className="mb-3 text-2xl font-bold text-foreground">Ölçüm ve reklam teknolojileri</h2>

@@ -6,10 +6,10 @@ import { trackContactConversion } from "@/lib/googleTag";
 const principles = ["Bireysel Yaklaşım", "Psikolojik Esneklik", "Akademik Takip", "Kabul ve Adanmışlık", "Gizlilik ve Güven", "Değer Odaklı Yaşam"];
 
 const certifications = [
-  { category: "Kabul ve Adanmışlık Terapisi (ACT)", items: ["ACT – Temel Seviye Eğitimi", "ACT – Orta Seviye Eğitimi", "ACT – İleri Düzey Eğitimi", "ACT Uygulamalı Süpervizyon Eğitimi", "Süreç Odaklı Beceri ve ACT Eğitimi"] },
+  { category: "Kabul ve Adanmışlık (ACT) Yaklaşımı", items: ["ACT – Temel Seviye Eğitimi", "ACT – Orta Seviye Eğitimi", "ACT – İleri Düzey Eğitimi", "ACT Uygulamalı Süpervizyon Eğitimi", "Süreç Odaklı Beceri ve ACT Eğitimi"] },
   { category: "Dikkat ve Performans Programları", items: ["MOXO Dikkat Performans Testi Uygulayıcı Eğitimi", "Attentioner Dikkat Programı Eğitimi"] },
   { category: "Psikolojik Değerlendirme & Projektif Testler", items: ["WISC-R Zeka Testi Eğitimi", "MMPI – Minnesota Çok Yönlü Kişilik Envanteri Eğitimi", "C.A.T. ve Louisa Duss Projektif Test Eğitimi", "TAT – Tematik Algı Testi Eğitimi"] },
-  { category: "Terapi Yöntemleri & Diğer Eğitimler", items: ["Mindfulness Temelli Psikolojik Danışma Beceri Eğitimi", "1. Modül Bilişsel Davranışçı Temelli Psikolojik Danışma Beceri Eğitimi", "Kısa Süreli Çözüm Odaklı Terapi Uygulayıcı Eğitimi", "Kariyer Danışmanlığı ve Psikoeğitim Programları", "Temel Spor Psikolojisi Eğitimi", "Proje Hazırlama ve Proje Yönetimi Eğitimi"] }
+  { category: "Yaklaşımlar & Diğer Eğitimler", items: ["Mindfulness Temelli Psikolojik Danışma Beceri Eğitimi", "1. Modül Bilişsel Davranışçı Temelli Psikolojik Danışma Beceri Eğitimi", "Kısa Süreli Çözüm Odaklı Danışmanlık Uygulayıcı Eğitimi", "Kariyer Danışmanlığı ve Psikoeğitim Programları", "Temel Spor Psikolojisi Eğitimi", "Proje Hazırlama ve Proje Yönetimi Eğitimi"] }
 ];
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
               <img
                 src="/2.jpg"
                 alt="Dila Dilara Aytekin"
-                className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+                className="h-full w-full object-cover transition-transform duration-700 scale-[1.12] hover:scale-[1.18]"
                 loading="lazy"
               />
               <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md flex items-center gap-3">
@@ -58,7 +58,7 @@ const About = () => {
               
               <div className="rounded-2xl border border-white/50 bg-white/40 p-5 sm:p-6 shadow-soft backdrop-blur-sm transition-all duration-300 hover:bg-white/60 hover:border-primary/25 reveal-right [animation-delay:300ms]">
                 <p>
-                  Mesleki yaklaşımımın merkezinde, bireyin yalnızca yaşadığı zorlukları veya semptomları azaltmak değil; kendisi için anlamlı, değerli ve değerleri doğrultusunda bir yaşam inşa edebilmesini desteklemek yer alıyor. Özellikle <strong>Kabul ve Adanmışlık Terapisi (ACT)</strong> ve mindfulness tabanlı yaklaşımları danışmanlık süreçlerime entegre ederek, bireylerin zorlayıcı duygu ve düşünceler karşısında psikolojik esneklik geliştirmelerine yardımcı oluyorum.
+                  Mesleki yaklaşımımın merkezinde, bireyin yalnızca yaşadığı zorlukları veya semptomları azaltmak değil; kendisi için anlamlı, değerli ve değerleri doğrultusunda bir yaşam inşa edebilmesini desteklemek yer alıyor. Özellikle <strong>Kabul ve Adanmışlık (ACT)</strong> yaklaşımı ve mindfulness tabanlı yaklaşımları danışmanlık süreçlerime entegre ederek, bireylerin zorlayıcı duygu ve düşünceler karşısında psikolojik esneklik geliştirmelerine yardımcı oluyorum.
                 </p>
               </div>
               

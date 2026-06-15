@@ -123,15 +123,15 @@ const articles: Article[] = [
   },
   {
     "id": "kabul-ve-adanmislik-terapisi-act",
-    "title": "Kabul ve Adanmışlık Terapisi (ACT):",
+    "title": "Kabul ve Adanmışlık (ACT) Yaklaşımı:",
     "excerpt": "ACT, zihnin gürültüsünde kendine yön bulmanı sağlayan şefkatli bir yaklaşımdır. Hayatı anlamlı kılacak 6 temel esneklik süreci.",
     "docUrl": "/kabul-ve-adanmislik-terapisi-act.docx",
     "imgUrl": "/4.jpg",
     "readTime": "6 dk okuma",
     "paragraphs": [
-      "Kabul ve Adanmışlık Terapisi (ACT): Zihnin Gürültüsünde Kendine Bir Yol Açmak",
+      "Kabul ve Adanmışlık (ACT) Yaklaşımı: Zihnin Gürültüsünde Kendine Bir Yol Açmak",
       "Günümüz insanı, zihninde geçmişin yankılarıyla ve geleceğin belirsizliğiyle boğuşurken bir yandan da “şimdi”de kalmaya çalışıyor. Sürekli bir şeyleri düzeltmeye, hissettiklerini bastırmaya ya da kontrol etmeye çalışan bir zihne hapsolmuş haldeyiz. Bu çabanın sonunda çoğu zaman yorgun, tükenmiş ve kendimize yabancı hissediyoruz.",
-      "İşte tam bu noktada Kabul ve Adanmışlık Terapisi (ACT) devreye giriyor. ACT, sadece bir terapi tekniği değil; insanın kendi içsel hikâyesine alan açmasını sağlayan, şefkatli, bilimsel ve dönüştürücü bir yaklaşım. Amacı, acıyı yok etmek değil  o acıyla birlikte daha anlamlı ve değer odaklı bir yaşam kurmak. Çünkü hayat, yalnızca keyifli anlardan değil; cesaretle karşılanan zorluklardan da inşa edilir. ACT bize bu cesareti verir.",
+      "İşte tam bu noktada Kabul ve Adanmışlık (ACT) yaklaşımı devreye giriyor. ACT, sadece teorik bir model değil; insanın kendi içsel hikâyesine alan açmasını sağlayan, şefkatli, bilimsel ve dönüştürücü bir yaklaşım. Amacı, acıyı yok etmek değil; o acıyla birlikte daha anlamlı ve değer odaklı bir yaşam kurmak. Çünkü hayat, yalnızca keyifli anlardan değil; cesaretle karşılanan zorluklardan da inşa edilir. ACT bize bu cesareti verir.",
       "ACT Nedir?",
       "ACT (Acceptance and Commitment Therapy), psikolojik acıdan kaçınmak yerine onunla birlikte yaşama cesareti kazandıran bir psikolojik yaklaşımdır. ACT, zorlayıcı duygu, düşünce ve bedensel hisleri kontrol etmek ya da bastırmak yerine, onlarla birlikte yaşamayı öğrenmeye odaklanır. ACT’ın temel amacı, bireyin içsel deneyimleriyle savaşmadan, yaşamında önemli ve anlamlı olan yöne doğru adım atabilmesini sağlamaktır.",
       "1980’lerin sonlarında Steven C. Hayes ve arkadaşları tarafından geliştirilen bu yaklaşım, insan davranışlarını dil, düşünce ve bağlam üzerinden açıklayan İlişkisel Çerçeve Teorisi (RFT)’ne dayanır.",
@@ -243,7 +243,7 @@ export default function Articles() {
           <p className="section-kicker">Kaynaklar & Yazılar</p>
           <h2 className="section-title text-gradient-dark mx-auto">Yazılarım & Makaleler</h2>
           <p className="section-copy mx-auto">
-            Kabul ve Adanmışlık Terapisi (ACT), mindfulness, kaygı ve kendine şefkat temalarında kaleme aldığım makaleleri okuyabilir ve döküman olarak indirebilirsiniz.
+            Kabul ve Adanmışlık (ACT) yaklaşımı, mindfulness, kaygı ve kendine şefkat temalarında kaleme aldığım makaleleri okuyabilir ve döküman olarak indirebilirsiniz.
           </p>
         </div>
 

@@ -72,7 +72,7 @@ const FlexibilitySimulator = () => {
           <p className="section-kicker">İnteraktif Deneyim</p>
           <h2 className="section-title text-gradient-dark mx-auto">Zihinsel Esneklik Bahçesi</h2>
           <p className="section-copy mx-auto">
-            Kabul ve Adanmışlık Terapisi (ACT) modelindeki psikolojik esneklik becerilerini kendiniz deneyimleyin. Seviyeleri artırdıkça zihninizin ve hayat bahçenizin nasıl esneklikle yeşerdiğini gözlemleyin.
+            Kabul ve Adanmışlık (ACT) modelindeki psikolojik esneklik becerilerini kendiniz deneyimleyin. Seviyeleri artırdıkça zihninizin ve hayat bahçenizin nasıl esneklikle yeşerdiğini gözlemleyin.
           </p>
         </div>
 
@@ -376,7 +376,7 @@ const FlexibilitySimulator = () => {
                 className="flex-1"
               >
                 <Button className="btn-cta w-full py-5 text-xs font-bold flex items-center justify-center gap-2">
-                  <Info className="h-4 w-4" /> Esneklik Seansları İçin Bilgi Al
+                  <Info className="h-4 w-4" /> Danışmanlık Süreci Hakkında Bilgi Al
                 </Button>
               </a>
             </div>

@@ -18,7 +18,7 @@ const questions = [
   },
   {
     question: "Samsun'da yüz yüze görüşme için nasıl randevu alınır?",
-    answer: "Samsun Atakum'daki (Çağ Psikoloji) görüşmeler veya online seanslar için telefon veya WhatsApp üzerinden iletişime geçebilirsiniz. Uygun gün ve saat, karşılıklı olarak planlanır.",
+    answer: "Samsun Atakum'daki (Çağ Psikoloji) görüşmeler veya online danışmanlık hizmeti için telefon veya WhatsApp üzerinden iletişime geçebilirsiniz. Uygun gün ve saat, karşılıklı olarak planlanır.",
   },
 ];
 
@@ -33,7 +33,7 @@ const Faq = () => (
         {/* FAQ Sidebar CTA */}
         <div className="mt-8 rounded-2xl border border-primary/10 bg-secondary/35 p-6">
           <h4 className="font-heading text-base font-bold text-foreground">Aklınıza takılan başka bir konu mu var?</h4>
-          <p className="mt-1 text-xs text-foreground/60">Süreç ve seans detayları hakkında bilgi edinmek için bize doğrudan sorabilirsiniz.</p>
+          <p className="mt-1 text-xs text-foreground/60">Süreç ve görüşme detayları hakkında bilgi edinmek için bize doğrudan sorabilirsiniz.</p>
           <a
             href="https://wa.me/905312353886"
             target="_blank"

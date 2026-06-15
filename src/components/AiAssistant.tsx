@@ -22,7 +22,7 @@ export default function AiAssistant() {
     {
       id: "init-1",
       sender: "bot",
-      text: "Merhaba! Ben Psikolojik Danışman & Eğitim Danışmanı Dila Dilara Aytekin'in dijital asistanıyım. Size seans süreçleri, YKS/LGS takipleri, MOXO dikkat testi veya randevular hakkında nasıl yardımcı olabilirim?",
+      text: "Merhaba! Ben Psikolojik Danışman & Eğitim Danışmanı Dila Dilara Aytekin'in dijital asistanıyım. Size danışmanlık süreçleri, YKS/LGS takipleri, MOXO dikkat testi veya randevular hakkında nasıl yardımcı olabilirim?",
     },
   ]);
   const [inputValue, setInputValue] = useState("");
@@ -72,7 +72,7 @@ export default function AiAssistant() {
       text.includes("yks") ||
       text.includes("lgs")
     ) {
-      return "Dila Dilara Aytekin; Ergen ve Genç Yetişkin Danışmanlığı, YKS ve LGS Eğitim Danışmanlığı (akademik planlama ve bireysel takip), Sınav Kaygısı ve Performans Yönetimi, ACT (Kabul ve Adanmışlık Terapisi) temelli seanslar ve atölye çalışmaları yürütmektedir.";
+      return "Dila Dilara Aytekin; Ergen ve Genç Yetişkin Danışmanlığı, YKS ve LGS Eğitim Danışmanlığı (akademik planlama ve bireysel takip), Sınav Kaygısı ve Performans Yönetimi, ACT (Kabul ve Adanmışlık) temelli danışmanlık süreçleri ve atölye çalışmaları yürütmektedir.";
     }
     if (
       text.includes("konum") ||
@@ -87,8 +87,8 @@ export default function AiAssistant() {
     ) {
       return "Ofisimiz (Çağ Psikoloji) Samsun Atakum'dadır: Körfez Mahallesi Atakum Bulvarı No:21/11 A Blok Kat:1 Daire:11 Atakum / Samsun. Görüşmelerimizi yüz yüze veya online olarak yürütüyoruz. İletişim numaramız: 0 (531) 235 38 86.";
     }
-    if (text.includes("ücret") || text.includes("fiyat") || text.includes("bütçe") || text.includes("seans ücreti")) {
-      return "Danışmanlık seansı ve akademik takip ücretlerimiz seans türüne (bireysel danışmanlık, YKS/LGS takibi, dikkat testleri vb.) göre değişmektedir. Detaylı bilgi almak için lütfen WhatsApp üzerinden yazın ya da bizi arayın.";
+    if (text.includes("ücret") || text.includes("fiyat") || text.includes("bütçe") || text.includes("danışmanlık ücreti") || text.includes("seans")) {
+      return "Psikolojik danışmanlık ve akademik takip ücretlerimiz görüşme türüne (bireysel danışmanlık, YKS/LGS takibi, dikkat testleri vb.) göre değişmektedir. Detaylı bilgi almak için lütfen WhatsApp üzerinden yazın ya da bizi arayın.";
     }
 
     return "Anlıyorum. Sorunuza en net ve detaylı yanıtı verebilmemiz için lütfen 0 (531) 235 38 86 numarasından bizi arayın ya da aşağıdaki butona tıklayarak doğrudan WhatsApp'tan mesaj yazın. En kısa sürede geri dönüş sağlayacağız.";

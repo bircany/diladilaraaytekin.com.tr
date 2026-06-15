@@ -2,7 +2,7 @@ import { Sparkles, Brain, Compass, Eye } from "lucide-react";
 
 const approaches = [
   {
-    title: "Kabul ve Adanmışlık Terapisi (ACT)",
+    title: "Kabul ve Adanmışlık (ACT) Yaklaşımı",
     icon: Compass,
     desc: "Bireyin zorlayıcı düşünce ve duygularını ortadan kaldırmak veya bastırmak yerine, onlarla daha esnek bir ilişki kurmasını ve kendi yaşam değerleri doğrultusunda anlamlı adımlar atmasını hedefler."
   },
@@ -61,7 +61,7 @@ const Approach = () => (
           <img
             src="/6.jpg"
             alt="Yaklaşımım - Dila Dilara Aytekin"
-            className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+            className="h-full w-full object-cover transition-transform duration-700 scale-[1.12] hover:scale-[1.18]"
             loading="lazy"
           />
           <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/85 p-4 shadow-soft backdrop-blur-md text-center">

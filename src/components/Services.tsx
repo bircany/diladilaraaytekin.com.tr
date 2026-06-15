@@ -23,11 +23,11 @@ const Services = () => (
             <img
               src="/3.jpg"
               alt="Psikolojik Danışmanlık - Dila Dilara Aytekin"
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+              className="h-full w-full object-cover transition-transform duration-700 scale-[1.12] hover:scale-[1.18]"
               loading="lazy"
             />
             <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md text-center">
-              <span className="block font-heading text-[10px] font-bold uppercase tracking-wider text-primary-dark">Bireysel Seanslar</span>
+              <span className="block font-heading text-[10px] font-bold uppercase tracking-wider text-primary-dark">Bireysel Görüşmeler</span>
               <h4 className="mt-0.5 font-heading text-base font-bold text-foreground">Ergen & Genç Yetişkin</h4>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Services = () => (
                 <div>
                   <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Ergen ve Genç Yetişkin Danışmanlığı</h3>
                   <p className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
-                    Ergenlik dönemi ve genç yetişkinlik sürecinde karşılaşılan yaşam geçişleri, kimlik gelişimi, gelecek kaygısı ve karar verme süreçleri üzerine odaklanan bireysel psikolojik danışmanlık seanslarıdır.
+                    Ergenlik dönemi ve genç yetişkinlik sürecinde karşılaşılan yaşam geçişleri, kimlik gelişimi, gelecek kaygısı ve karar verme süreçleri üzerine odaklanan bireysel psikolojik danışmanlık görüşmeleridir.
                   </p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ const Services = () => (
             <img
               src="/4.jpg"
               alt="Eğitim Danışmanlığı - Dila Dilara Aytekin"
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+              className="h-full w-full object-cover transition-transform duration-700 scale-[1.12] hover:scale-[1.18]"
               loading="lazy"
             />
             <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md text-center">
@@ -150,12 +150,12 @@ const Services = () => (
       </div>
     </section>
 
-    {/* Seans Bilgilendirme Banner */}
+    {/* Görüşme Bilgilendirme Banner */}
     <section className="bg-background py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 rounded-[2rem] border border-primary/10 bg-secondary/35 p-8 text-center sm:p-10 md:flex-row md:text-left">
           <div>
-            <h4 className="font-heading text-lg font-bold text-foreground">Süreç ve Seans Planlaması</h4>
+            <h4 className="font-heading text-lg font-bold text-foreground">Süreç ve Görüşme Planlaması</h4>
             <p className="mt-1 text-sm text-foreground/60">Görüşmelerimizin sıklığı ve içeriği, ihtiyacınıza uygun şekilde kişiye özel planlanır.</p>
           </div>
           <a
