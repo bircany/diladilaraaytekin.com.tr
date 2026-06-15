@@ -20,7 +20,7 @@ const articles: Article[] = [
     "title": "Zihni Susturmak Mümkün mü",
     "excerpt": "Zihni susturmaya çalışmak, gökyüzündeki bulutları durdurmaya çalışmak gibidir. Savaşmadan, bastırmadan sadece fark etmek mümkün mü?",
     "docUrl": "/zihni-susturmak-mumkun-mu.docx",
-    "imgUrl": "/6.jpg",
+    "imgUrl": "/7.jpg",
     "readTime": "3 dk okuma",
     "paragraphs": [
       "Zihni Susturmak Mümkün mü? (Ve Belki de Gereken Bu Değildir)",
@@ -44,7 +44,7 @@ const articles: Article[] = [
     "title": "ACT ile Şefkat Geliştirme: Kendine Yumuşakça Yaklaşmak",
     "excerpt": "Gerçek şefkat, önce kendine yöneltilen yumuşak bir bakıştır. ACT ile acıya alan açarak kendimize bir dost gibi yaklaşabiliriz.",
     "docUrl": "/act-ile-sefkat-gelistirme.docx",
-    "imgUrl": "/2.jpg",
+    "imgUrl": "/8.jpg",
     "readTime": "4 dk okuma",
     "paragraphs": [
       "ACT ile Şefkat Geliştirme: Kendine Yumuşakça Yaklaşmak",
@@ -68,7 +68,7 @@ const articles: Article[] = [
     "title": "ACT ve Kaygı",
     "excerpt": "Kaygı, insan olmanın doğal bir parçasıdır. Zihnimizdeki fırtınayla savaşmak yerine esnek bir ilişki kurarak dans edebilir miyiz?",
     "docUrl": "/act-ve-kaygi.docx",
-    "imgUrl": "/1.jpg",
+    "imgUrl": "/9.jpg",
     "readTime": "5 dk okuma",
     "paragraphs": [
       "ACT ve Kaygı Yönetimi: İçsel Fırtınayla Nazikçe Dans Etmek",
@@ -101,7 +101,7 @@ const articles: Article[] = [
     "title": "Ebeveyn Olurken Kendini Unutma: Yetişkinliğin Sessiz Yükü ve Kendine Şefkat",
     "excerpt": "Çocukları büyütürken içimizdeki çocuğu ihmal ediyor muyuz? Ebeveynliğin sessiz yükü altında kendimize şefkat göstermek.",
     "docUrl": "/ebeveyn-olurken-kendini-unutma.docx",
-    "imgUrl": "/3.jpg",
+    "imgUrl": "/10.jpg",
     "readTime": "4 dk okuma",
     "paragraphs": [
       "Ebeveyn Olurken Kendini Unutma: Yetişkinliğin Sessiz Yükü ve Kendine Şefkat",
@@ -126,7 +126,7 @@ const articles: Article[] = [
     "title": "Kabul ve Adanmışlık (ACT) Yaklaşımı:",
     "excerpt": "ACT, zihnin gürültüsünde kendine yön bulmanı sağlayan şefkatli bir yaklaşımdır. Hayatı anlamlı kılacak 6 temel esneklik süreci.",
     "docUrl": "/kabul-ve-adanmislik-terapisi-act.docx",
-    "imgUrl": "/4.jpg",
+    "imgUrl": "/11.jpg",
     "readTime": "6 dk okuma",
     "paragraphs": [
       "Kabul ve Adanmışlık (ACT) Yaklaşımı: Zihnin Gürültüsünde Kendine Bir Yol Açmak",
@@ -174,7 +174,7 @@ const articles: Article[] = [
     "title": "Online Psikolojik Destek: Ekranın Ötesine Geçen Şefkatli Bir Yolculuk",
     "excerpt": "Ekranın ötesinde kalpten kalbe bir temas kurmak. Evinizin rahatlığında, size özel şefkatli bir online danışmanlık süreci.",
     "docUrl": "/online-psikolojik-destek.docx",
-    "imgUrl": "/5.PNG",
+    "imgUrl": "/12.jpg",
     "readTime": "4 dk okuma",
     "paragraphs": [
       "Online Psikolojik Destek: Ekranın Ötesine Geçen Şefkatli Bir Yolculuk",

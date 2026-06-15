@@ -9,7 +9,7 @@ const certifications = [
   { category: "Kabul ve Adanmışlık (ACT) Yaklaşımı", items: ["ACT – Temel Seviye Eğitimi", "ACT – Orta Seviye Eğitimi", "ACT – İleri Düzey Eğitimi", "ACT Uygulamalı Süpervizyon Eğitimi", "Süreç Odaklı Beceri ve ACT Eğitimi"] },
   { category: "Dikkat ve Performans Programları", items: ["MOXO Dikkat Performans Testi Uygulayıcı Eğitimi", "Attentioner Dikkat Programı Eğitimi"] },
   { category: "Psikolojik Değerlendirme & Projektif Testler", items: ["WISC-R Zeka Testi Eğitimi", "MMPI – Minnesota Çok Yönlü Kişilik Envanteri Eğitimi", "C.A.T. ve Louisa Duss Projektif Test Eğitimi", "TAT – Tematik Algı Testi Eğitimi"] },
-  { category: "Yaklaşımlar & Diğer Eğitimler", items: ["Mindfulness Temelli Psikolojik Danışma Beceri Eğitimi", "1. Modül Bilişsel Davranışçı Temelli Psikolojik Danışma Beceri Eğitimi", "Kısa Süreli Çözüm Odaklı Danışmanlık Uygulayıcı Eğitimi", "Kariyer Danışmanlığı ve Psikoeğitim Programları", "Temel Spor Psikolojisi Eğitimi", "Proje Hazırlama ve Proje Yönetimi Eğitimi"] }
+  { category: "Diğer Eğitimler", items: ["Aile Danışmanlığı Uygulayıcı Eğitimi", "Mindfulness Temelli Psikolojik Danışma Beceri Eğitimi", "1. Modül Bilişsel Davranışçı Temelli Psikolojik Danışma Beceri Eğitimi", "Kısa Süreli Çözüm Odaklı Danışmanlık Uygulayıcı Eğitimi", "Kariyer Danışmanlığı ve Psikoeğitim Programları", "Temel Spor Psikolojisi Eğitimi", "Proje Hazırlama ve Proje Yönetimi Eğitimi"] }
 ];
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
               <img
                 src="/2.jpg"
                 alt="Dila Dilara Aytekin"
-                className="h-full w-full object-cover transition-transform duration-700 scale-[1.12] hover:scale-[1.18]"
+                className="h-full w-full object-cover transition-transform duration-700 scale-[1.22] hover:scale-[1.28]"
                 loading="lazy"
               />
               <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md flex items-center gap-3">
@@ -35,7 +35,7 @@ const About = () => {
                 <div>
                   <span className="block text-[10px] font-bold uppercase tracking-wider text-primary-dark">Lisans Eğitimi</span>
                   <h4 className="font-heading text-sm font-bold text-foreground">Ondokuz Mayıs Üniversitesi</h4>
-                  <p className="text-[11px] text-foreground/75">Rehberlik ve Psikolojik Danışmanlık (2023)</p>
+                  <p className="text-[11px] text-foreground/75">Rehberlik ve Psikolojik Danışmanlık</p>
                 </div>
               </div>
             </div>
