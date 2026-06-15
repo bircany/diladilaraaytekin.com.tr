@@ -72,9 +72,9 @@ const Workshops = () => (
         {/* Atölye Görseli (5.PNG) */}
         <div className="relative overflow-hidden rounded-[2.5rem] border-4 border-white bg-white/40 shadow-card backdrop-blur-sm aspect-[3/4] w-full max-w-[400px] mx-auto lg:mr-0 order-1 lg:order-2 reveal-right">
           <img
-            src="/13.jpg"
+            src="/29.jpg"
             alt="Atölyeler ve Grup Çalışmaları - Dila Dilara Aytekin"
-            className="h-full w-full object-cover transition-transform duration-700 scale-[1.22] hover:scale-[1.28]"
+            className="h-full w-full object-cover transition-transform duration-700 scale-[1.5] hover:scale-[1.58]"
             loading="lazy"
           />
           <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/85 p-4 shadow-soft backdrop-blur-md text-center">

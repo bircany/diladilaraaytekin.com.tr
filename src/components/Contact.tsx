@@ -101,7 +101,7 @@ const Contact = () => {
                 <img
                   src="/14.jpg"
                   alt="Dila Dilara Aytekin"
-                  className="h-full w-full object-cover scale-[1.22] hover:scale-[1.28] transition-transform duration-700"
+                  className="h-full w-full object-cover scale-[1.5] hover:scale-[1.58] transition-transform duration-700"
                   loading="lazy"
                 />
               </div>

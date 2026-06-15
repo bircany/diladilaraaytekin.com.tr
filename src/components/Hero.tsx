@@ -49,7 +49,7 @@ const Hero = () => (
           <img
             src="/1.jpg"
             alt="Psikolojik Danışman Dila Dilara Aytekin"
-            className="h-full w-full object-cover transition-transform duration-700 scale-[1.22] hover:scale-[1.28]"
+            className="h-full w-full object-cover transition-transform duration-700 scale-[1.5] hover:scale-[1.58]"
             loading="eager"
           />
           {/* Glassmorphic caption overlay at the bottom */}

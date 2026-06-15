@@ -61,7 +61,7 @@ const Approach = () => (
           <img
             src="/6.jpg"
             alt="Yaklaşımım - Dila Dilara Aytekin"
-            className="h-full w-full object-cover transition-transform duration-700 scale-[1.22] hover:scale-[1.28]"
+            className="h-full w-full object-cover transition-transform duration-700 scale-[1.5] hover:scale-[1.58]"
             loading="lazy"
           />
           <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/85 p-4 shadow-soft backdrop-blur-md text-center">
