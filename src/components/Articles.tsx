@@ -174,7 +174,7 @@ const articles: Article[] = [
     "title": "Online Psikolojik Destek: Ekranın Ötesine Geçen Şefkatli Bir Yolculuk",
     "excerpt": "Ekranın ötesinde kalpten kalbe bir temas kurmak. Evinizin rahatlığında, size özel şefkatli bir online danışmanlık süreci.",
     "docUrl": "/online-psikolojik-destek.docx",
-    "imgUrl": "/12.jpg",
+    "imgUrl": "/15.jpg",
     "readTime": "4 dk okuma",
     "paragraphs": [
       "Online Psikolojik Destek: Ekranın Ötesine Geçen Şefkatli Bir Yolculuk",
