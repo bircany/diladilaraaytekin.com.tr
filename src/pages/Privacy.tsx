@@ -44,7 +44,7 @@ const Privacy = () => {
           </section>
           <section>
             <h2 className="mb-3 text-2xl font-bold text-foreground">İletişim</h2>
-            <p>Gizlilikle ilgili sorularınız için <a href="mailto:iletisim@diladilaraaytekin.com.tr" className="font-semibold text-primary-dark underline">iletisim@diladilaraaytekin.com.tr</a> adresinden iletişime geçebilirsiniz.</p>
+            <p>Gizlilikle ilgili sorularınız için <a href="mailto:psk.dan.diladilaraytekin@gmail.com" className="font-semibold text-primary-dark underline">psk.dan.diladilaraytekin@gmail.com</a> adresinden iletişime geçebilirsiniz.</p>
           </section>
           <p className="border-t border-primary/15 pt-6 text-sm text-muted-foreground">Son güncelleme: 15 Haziran 2026</p>
         </div>

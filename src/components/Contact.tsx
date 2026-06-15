@@ -7,7 +7,7 @@ import { toast } from "sonner";
 const contactItems = [
   { icon: Phone, label: "Telefon", value: "0 (531) 235 38 86", href: "tel:+905312353886" },
   { icon: Instagram, label: "Instagram", value: "@psk.dan.diladilaraytekin", href: "https://www.instagram.com/psk.dan.diladilaraytekin?igsh=MXY0NHdxbTlua2NzaQ==" },
-  { icon: Mail, label: "E-posta", value: "iletisim@diladilaraaytekin.com.tr", href: "mailto:iletisim@diladilaraaytekin.com.tr" },
+  { icon: Mail, label: "E-posta", value: "psk.dan.diladilaraytekin@gmail.com", href: "mailto:psk.dan.diladilaraytekin@gmail.com" },
   { icon: MapPin, label: "Adres (Çağ Psikoloji)", value: "Körfez Mahallesi Atakum Bulvarı No:21/11 A Blok Kat:1 Daire:11 Atakum / Samsun" },
 ];
 
