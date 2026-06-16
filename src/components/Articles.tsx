@@ -44,7 +44,7 @@ const articles: Article[] = [
     "title": "ACT ile Şefkat Geliştirme: Kendine Yumuşakça Yaklaşmak",
     "excerpt": "Gerçek şefkat, önce kendine yöneltilen yumuşak bir bakıştır. ACT ile acıya alan açarak kendimize bir dost gibi yaklaşabiliriz.",
     "docUrl": "/act-ile-sefkat-gelistirme.docx",
-    "imgUrl": "/8.jpg",
+    "imgUrl": "/revize.jpeg",
     "readTime": "4 dk okuma",
     "paragraphs": [
       "ACT ile Şefkat Geliştirme: Kendine Yumuşakça Yaklaşmak",
