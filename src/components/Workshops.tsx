@@ -65,7 +65,7 @@ const Workshops = () => (
             Atölye çalışmaları, bireysel danışmanlık sürecine ek olarak yürütülen yapılandırılmış grup çalışmalarından oluşur. Bu çalışmaların amacı, bireylerin hem kendi deneyimlerini fark etmeleri hem de ortak süreçler üzerinden öğrenme ve gelişim fırsatı elde etmeleridir.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-foreground/70">
-            Atölyeler; ergenler, genç yetişkinler ve sınav sürecindeki öğrenciler için farklı temalarda, dönemlik ve yapılandırılmış gruplarla gerçekleştirilir.
+            Atölyeler; ergenler, yetişkinler ve sınav sürecindeki öğrenciler için farklı temalarda, dönemlik ve yapılandırılmış gruplarla gerçekleştirilir.
           </p>
         </div>
         

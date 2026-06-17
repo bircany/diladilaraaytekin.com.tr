@@ -14,7 +14,10 @@ const Services = () => (
         <div className="mb-12 text-center lg:text-left animate-blur-in">
           <p className="section-kicker">Hizmet Alanları</p>
           <h2 className="section-title text-gradient-dark">Psikolojik Danışmanlık</h2>
-          <p className="section-copy mx-auto lg:mx-0">Ergen ve genç yetişkinlerin duygusal, sosyal ve gelişimsel zorluklarla baş etmelerini destekleyen danışmanlık hizmeti.</p>
+          <div className="section-copy mx-auto lg:mx-0 space-y-4">
+            <p>Ergenlik döneminden yetişkinlik sürecine kadar uzanan yaşam yolculuğunda bireylerin karşılaştıkları duygusal, bilişsel ve ilişkisel zorluklarla çalışmaktadır. Danışanlarının kendilerini daha yakından tanımalarına, psikolojik esneklik kazanmalarına, yaşamlarındaki güçlüklerle daha etkili başa çıkabilmelerine ve psikolojik iyi oluşlarını desteklemelerine yönelik psikolojik danışmanlık hizmeti sunmaktadır.</p>
+            <p>Çalışmalarında bireyin ihtiyaçlarını merkeze alan, güvenli ve destekleyici bir danışmanlık süreci yürütmekte; kaygı, stres, öz güven, yaşam geçişleri, ilişki sorunları ve duygusal güçlükler gibi çeşitli alanlarda destek sağlamaktadır.</p>
+          </div>
         </div>
 
         <div className="grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr]">
@@ -23,28 +26,29 @@ const Services = () => (
             <img
               src="/3.jpg"
               alt="Psikolojik Danışmanlık - Dila Dilara Aytekin"
-              className="h-full w-full object-cover transition-transform duration-700 origin-[50%_54%] scale-[1.7] hover:scale-[1.78]"
+              className="h-full w-full object-cover object-[center_65%] transition-transform duration-700 origin-[50%_65%] scale-[1.7] hover:scale-[1.78]"
               loading="lazy"
             />
             <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md text-center">
               <span className="block font-heading text-[10px] font-bold uppercase tracking-wider text-primary-dark">Bireysel Görüşmeler</span>
-              <h4 className="mt-0.5 font-heading text-base font-bold text-foreground">Ergen & Genç Yetişkin</h4>
+              <h4 className="mt-0.5 font-heading text-base font-bold text-foreground">Ergen & Yetişkin</h4>
             </div>
           </div>
 
           {/* Sağ Kolon - Detaylar (Mobil'de ikinci, Desktop'ta ikinci/sağ) */}
           <div className="space-y-5 order-2 lg:order-2 reveal-right">
             <div className="space-y-4">
-              {/* Kart 1: Ergen ve Genç Yetişkin Danışmanlığı */}
+              {/* Kart 1: Yetişkin Danışmanlığı */}
               <div className="rounded-2xl border border-white/50 bg-white/40 p-5 sm:p-6 shadow-soft backdrop-blur-sm transition-all duration-300 hover:bg-white/60 hover:border-primary/25 flex gap-4 items-start">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary-dark">
                   <Heart className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Ergen ve Genç Yetişkin Danışmanlığı</h3>
-                  <p className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
-                    Ergenlik dönemi ve genç yetişkinlik sürecinde karşılaşılan yaşam geçişleri, kimlik gelişimi, gelecek kaygısı ve karar verme süreçleri üzerine odaklanan bireysel psikolojik danışmanlık hizmetleridir.
-                  </p>
+                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Yetişkin Danışmanlığı</h3>
+                  <div className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed space-y-3">
+                    <p>Yaşamın farklı dönemlerinde bireyler; ilişkiler, kariyer, aile yaşamı ve kişisel gelişim alanlarında çeşitli psikolojik zorluklarla karşılaşabilmektedir. Bu zorluklar zaman zaman kişinin yaşam doyumunu, işlevselliğini and ruhsal iyi oluşunu etkileyebilmektedir.</p>
+                    <p>Dila Dilara Aytekin; yetişkinlere yönelik psikolojik danışmanlık çalışmalarında kaygı, stres, öz güven sorunları, yaşam geçişleri, ilişki problemleri, duygusal yükler, karar verme süreçleri ve günlük yaşamda karşılaşılan psikolojik güçlükler gibi alanlarda destek sağlamaktadır. Danışmanlık sürecinde bireyin ihtiyaçlarını merkeze alan, güvenli ve destekleyici bir yaklaşım benimseyerek kişilerin psikolojik esneklik kazanmalarına, kendilerini daha yakından tanımalarına ve ruhsal iyi oluşlarını güçlendirmelerine eşlik etmektedir.</p>
+                  </div>
                 </div>
               </div>
 
@@ -55,9 +59,10 @@ const Services = () => (
                 </span>
                 <div>
                   <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Sınav Kaygısı ve Performans Süreçleri</h3>
-                  <p className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
-                    Sınav dönemlerinde öğrencilerin yaşadığı kaygı, başarısızlık korkusu, mükemmeliyetçilik ve motivasyon kaybı gibi akademik performansı doğrudan etkileyen psikolojik faktörler üzerine çalışılır.
-                  </p>
+                  <div className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed space-y-3">
+                    <p>Ergenlik ve yetişkinlik döneminde akademik hedefler, sınavlar ve gelecek planları bireyler üzerinde yoğun bir baskı oluşturabilmektedir. Bu süreçte yalnızca akademik performans değil, öğrencinin psikolojik iyi oluşu, motivasyonu ve duygusal dayanıklılığı da başarı üzerinde önemli bir rol oynamaktadır.</p>
+                    <p>Dila Dilara Aytekin; sınav sürecindeki öğrencilere yönelik eğitim danışmanlığı çalışmalarında hedef belirleme, etkili çalışma alışkanlıkları geliştirme, zaman yönetimi, motivasyonu sürdürme, sınav kaygısıyla baş etme ve akademik süreci planlama konularında destek sunmaktadır. Amaç; öğrencilerin yalnızca sınava değil, aynı zamanda bu sürecin duygusal ve psikolojik yüklerine de sağlıklı bir şekilde hazırlanabilmelerine yardımcı olmaktır.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -83,37 +88,39 @@ const Services = () => (
     <section id="educational" className="section-shell bg-secondary/25">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 text-center lg:text-left reveal">
-          <p className="section-kicker">Akademik Takip</p>
-          <h2 className="section-title text-gradient-dark">Eğitim Danışmanlığı</h2>
-          <p className="section-copy mx-auto lg:mx-0">YKS ve LGS sürecindeki öğrencilerin akademik gelişimlerini ve süreç yönetimi becerilerini desteklemeye yönelik profesyonel takip çalışmaları.</p>
+          <p className="section-kicker">Sınav Sürecinde Akademik ve Psikolojik Destek</p>
+          <h2 className="section-title text-gradient-dark">Psikolojik ve Akademik Destek</h2>
+          <p className="section-copy mx-auto lg:mx-0">Öğrenciye Özel Takip ve Danışmanlık</p>
         </div>
 
         <div className="grid items-start gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           {/* Sol Kolon - Detaylar (Mobil'de ikinci, Desktop'ta ilk/sol) */}
           <div className="space-y-5 order-2 lg:order-1 reveal-left">
             <div className="space-y-4">
-              {/* Kart 1: YKS Eğitim Danışmanlığı */}
+              {/* Kart 1: Psikolojik Danışmanlık ve Psikolojik Destek */}
               <div className="rounded-2xl border border-white/50 bg-white/40 p-5 sm:p-6 shadow-soft backdrop-blur-sm transition-all duration-300 hover:bg-white/60 hover:border-primary/25 flex gap-4 items-start">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary-dark">
-                  <ClipboardCheck className="h-5 w-5" />
+                  <Heart className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">YKS Eğitim Danışmanlığı</h3>
-                  <p className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
-                    YKS hazırlık sürecindeki lise ve mezun grubu öğrenciler için kişiselleştirilmiş ders çalışma planlarının hazırlanması, haftalık deneme analizleri ve akademik hedef takibini içeren sistemli bir süreçtir.
+                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Psikolojik Danışmanlık ve Psikolojik Destek</h3>
+                  <span className="block text-xs font-bold text-primary-dark uppercase tracking-wider mt-1">Sınav sürecinde duygusal iyi oluş, psikolojik esneklik ve içsel denge desteği</span>
+                  <p className="mt-2.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
+                    LGS ve YKS hazırlık sürecinde öğrencinin yalnızca akademik performansı değil, aynı zamanda duygusal dünyası ve içsel süreçleri de bütüncül bir yaklaşımla ele alınmaktadır. Bu süreçte öğrencinin sınav kaygısı, stres yönetimi, motivasyon dalgalanmaları ve erteleme davranışlarıyla baş etmesine destek olunur. Aynı zamanda odaklanma güçlükleri, hedef belirleme süreci ve özellikle psikolojik esneklik becerisinin geliştirilmesi üzerinde durulur. Öğrencinin zorlayıcı düşünce ve duygularla karşılaştığında onlarla mücadele etmek yerine onları daha sağlıklı bir şekilde yönetebilmesi ve süreci sürdürebilmesi hedeflenir. Böylece öğrenci yalnızca akademik olarak değil, duygusal olarak da daha dengeli ve işlevsel bir süreç deneyimler.
                   </p>
                 </div>
               </div>
 
-              {/* Kart 2: LGS Eğitim Danışmanlığı */}
+              {/* Kart 2: Eğitim Danışmanlığı ve Akademik Takip */}
               <div className="rounded-2xl border border-white/50 bg-white/40 p-5 sm:p-6 shadow-soft backdrop-blur-sm transition-all duration-300 hover:bg-white/60 hover:border-primary/25 flex gap-4 items-start">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary-dark">
                   <GraduationCap className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">LGS Eğitim Danışmanlığı</h3>
-                  <p className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
-                    LGS sürecindeki ortaokul öğrencilerinin verimli çalışma alışkanlıkları kazanması, dikkat ve odaklanma desteği, motivasyon takibi ve bu süreçte aile ile kurulan yakın iş birliğini kapsar.
+                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Eğitim Danışmanlığı ve Akademik Takip</h3>
+                  <span className="block text-xs font-bold text-primary-dark uppercase tracking-wider mt-1">Planlama, düzen ve sürdürülebilir çalışma sistemi</span>
+                  <p className="mt-2.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
+                    LGS ve YKS hazırlık sürecindeki öğrenciler için bireyselleştirilmiş akademik takip ve eğitim danışmanlığı hizmeti sunulmaktadır. Bu süreçte öğrencinin hedeflerine uygun bir çalışma planı oluşturulur, haftalık ve günlük düzenin sürdürülebilir hale gelmesi desteklenir. Deneme sınavı analizleri üzerinden eksik kazanımlar belirlenir ve zaman yönetimi becerileri geliştirilerek verimli çalışma alışkanlığı kazandırılır. Süreç boyunca düzenli takip ve geri bildirimlerle öğrencinin akademik gelişimi yakından izlenir. Temel amaç, öğrencinin kendi potansiyeline uygun, sistemli ve sürdürülebilir bir çalışma düzeni kurmasını sağlamaktır.
                   </p>
                 </div>
               </div>
@@ -142,8 +149,8 @@ const Services = () => (
               loading="lazy"
             />
             <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md text-center">
-              <span className="block font-heading text-[10px] font-bold uppercase tracking-wider text-primary-dark">Akademik Takip</span>
-              <h4 className="mt-0.5 font-heading text-base font-bold text-foreground">YKS & LGS Süreçleri</h4>
+              <span className="block font-heading text-[10px] font-bold uppercase tracking-wider text-primary-dark">Sınav Süreci</span>
+              <h4 className="mt-0.5 font-heading text-base font-bold text-foreground">Akademik & Psikolojik Destek</h4>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ const Hero = () => (
           <span className="mt-1 block text-gradient-primary py-1 px-1">Aytekin</span>
         </h1>
         <p className="mx-auto mb-9 max-w-2xl text-base leading-8 text-foreground/70 sm:text-lg lg:mx-0 animate-blur-in [animation-delay:300ms]">
-          Ergenler, yetişkinler ve sınav sürecindeki öğrenciler için psikolojik danışmanlık, eğitim danışmanlığı ve atölye çalışmaları ile psikolojik esneklik ve akademik gelişimi birlikte destekleyen bütüncül bir yaklaşım sunuyorum.
+          Ergen ve yetişkinlere yönelik psikolojik danışmanlık hizmeti sunarken, sınav sürecindeki öğrencilerle eğitim danışmanlığı çalışmaları yürütüyorum. Her bireyin ihtiyaçlarına uygun bir yaklaşımla psikolojik gelişimi ve öğrenciler için akademik ilerlemeyi desteklemeyi hedefliyorum.
         </p>
         <div className="flex flex-col justify-center gap-3 sm:flex-row lg:justify-start animate-blur-in [animation-delay:400ms] flex-wrap">
           <a href="https://wa.me/905312353886" target="_blank" rel="noreferrer" onClick={() => trackContactConversion("whatsapp", "hero")}>

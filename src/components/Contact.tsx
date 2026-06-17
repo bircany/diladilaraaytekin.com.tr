@@ -6,6 +6,7 @@ import { toast } from "sonner";
 
 const contactItems = [
   { icon: Phone, label: "Telefon", value: "0 (531) 235 38 86", href: "tel:+905312353886" },
+  { icon: MessageCircle, label: "WhatsApp", value: "0 (531) 235 38 86", href: "https://wa.me/905312353886" },
   { icon: Instagram, label: "Instagram", value: "@psk.dan.diladilaraytekin", href: "https://www.instagram.com/psk.dan.diladilaraytekin?igsh=MXY0NHdxbTlua2NzaQ==" },
   { icon: Mail, label: "E-posta", value: "psk.dan.diladilaraytekin@gmail.com", href: "mailto:psk.dan.diladilaraytekin@gmail.com" },
   { icon: MapPin, label: "Adres (Çağ Psikoloji)", value: "Körfez Mahallesi Atakum Bulvarı No:21/11 A Blok Kat:1 Daire:11 Atakum / Samsun" },
@@ -61,7 +62,10 @@ const Contact = () => {
               <div className="space-y-6">
                 <div>
                   <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-primary-dark">İletişim & Randevu</p>
-                  <h2 className="mb-6 max-w-xl text-3xl font-bold leading-tight text-gradient-dark sm:text-5xl">Kendinize ayıracağınız bir görüşmeyle başlayın.</h2>
+                  <h2 className="mb-6 max-w-xl text-3xl font-bold leading-tight text-foreground sm:text-5xl">
+                    <span className="text-gradient-dark pb-1 px-1 inline-block">Kendinize ayıracağınız bir</span>
+                    <span className="text-gradient-dark pb-1 px-1 block sm:inline-block">görüşmeyle başlayın.</span>
+                  </h2>
                   <p className="max-w-xl text-sm leading-relaxed text-foreground/75 sm:text-base">
                     Danışmanlık süreci, atölye takvimi ve randevu planlaması hakkında bilgi almak için telefon, Instagram veya WhatsApp üzerinden doğrudan iletişime geçebilir ya da yandaki formu doldurabilirsiniz.
                   </p>
@@ -80,7 +84,7 @@ const Contact = () => {
                         </span>
                       </div>
                     );
-                    const conversionType = item.label === "Telefon" ? "phone" : item.label === "Instagram" ? "instagram" : item.label === "E-posta" ? "email" : null;
+                    const conversionType = item.label === "Telefon" ? "phone" : item.label === "WhatsApp" ? "whatsapp" : item.label === "Instagram" ? "instagram" : item.label === "E-posta" ? "email" : null;
                     return (
                       <div key={item.label} className="w-full">
                         {item.href ? (
@@ -137,7 +141,7 @@ const Contact = () => {
                     className="w-full rounded-xl border border-primary/20 bg-white/80 px-4 py-3 text-sm focus:border-primary focus:outline-none appearance-none"
                   >
                     <option value="Ergen Danışmanlığı">Ergen Danışmanlığı</option>
-                    <option value="Genç Yetişkin Danışmanlığı">Genç Yetişkin Danışmanlığı</option>
+                    <option value="Yetişkin Danışmanlığı">Yetişkin Danışmanlığı</option>
                     <option value="YKS Eğitim Danışmanlığı">YKS Eğitim Danışmanlığı</option>
                     <option value="LGS Eğitim Danışmanlığı">LGS Eğitim Danışmanlığı</option>
                     <option value="Sınav Kaygısı ve Stres Yönetimi">Sınav Kaygısı ve Stres Yönetimi</option>

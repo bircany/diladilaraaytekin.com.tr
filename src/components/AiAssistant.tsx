@@ -72,7 +72,7 @@ export default function AiAssistant() {
       text.includes("yks") ||
       text.includes("lgs")
     ) {
-      return "Dila Dilara Aytekin; Ergen ve Genç Yetişkin Danışmanlığı, YKS ve LGS Eğitim Danışmanlığı (akademik planlama ve bireysel takip), Sınav Kaygısı ve Performans Yönetimi, ACT (Kabul ve Adanmışlık) temelli danışmanlık süreçleri ve atölye çalışmaları yürütmektedir.";
+      return "Dila Dilara Aytekin; Ergen ve Yetişkin Danışmanlığı, YKS ve LGS Eğitim Danışmanlığı (akademik planlama ve bireysel takip), Sınav Kaygısı ve Performans Yönetimi, ACT (Kabul ve Adanmışlık) temelli danışmanlık süreçleri ve atölye çalışmaları yürütmektedir.";
     }
     if (
       text.includes("konum") ||

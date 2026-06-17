@@ -25,7 +25,7 @@ const About = () => {
               <img
                 src="/2.jpg"
                 alt="Dila Dilara Aytekin"
-                className="h-full w-full object-cover transition-transform duration-700 origin-[50%_54%] scale-[1.7] hover:scale-[1.78]"
+                className="h-full w-full object-cover object-[center_65%] transition-transform duration-700 origin-[50%_65%] scale-[1.7] hover:scale-[1.78]"
                 loading="lazy"
               />
               <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md flex items-center gap-3">
@@ -52,7 +52,7 @@ const About = () => {
             <div className="space-y-4 text-base leading-relaxed text-foreground/80 sm:text-lg">
               <div className="rounded-2xl border border-white/50 bg-white/40 p-5 sm:p-6 shadow-soft backdrop-blur-sm transition-all duration-300 hover:bg-white/60 hover:border-primary/25 reveal-right [animation-delay:150ms]">
                 <p>
-                  Merhaba, ben <strong>Dila Dilara Aytekin</strong>. 2023 yılında Ondokuz Mayıs Üniversitesi Psikolojik Danışmanlık ve Rehberlik Bölümü’nden mezun oldum. Lisans dönemim boyunca uluslararası stajlar, sosyal sorumluluk projeleri ve akademik çalışmalarla kendimi çok yönlü geliştirme fırsatı buldum. Psikolojik danışman ve eğitim danışmanı olarak ergenler, genç yetişkinler, sınav sürecindeki öğrenciler ve yetişkin danışanlarla çalışıyorum. Şu an aktif olarak <strong>Çağ Psikoloji</strong> bünyesinde ergen ve yetişkin bireylerle çalışmalarımı sürdürüyorum.
+                  Merhaba, ben <strong>Dila Dilara Aytekin</strong>. 2023 yılında Ondokuz Mayıs Üniversitesi Psikolojik Danışmanlık ve Rehberlik Bölümü’nden mezun oldum. Lisans dönemim boyunca uluslararası stajlar, sosyal sorumluluk projeleri ve akademik çalışmalarla kendimi çok yönlü geliştirme fırsatı buldum. Psikolojik danışman ve eğitim danışmanı olarak ergenler, yetişkinler ve sınav sürecindeki öğrencilerle çalışıyorum. Şu an aktif olarak <strong>Çağ Psikoloji</strong> bünyesinde ergen ve yetişkin bireylerle çalışmalarımı sürdürüyorum.
                 </p>
               </div>
               
