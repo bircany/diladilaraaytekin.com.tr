@@ -44,10 +44,10 @@ const Services = () => (
                   <Heart className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Yetişkin Danışmanlığı</h3>
-                  <div className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed space-y-3">
+                  <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground">Yetişkin Danışmanlığı</h3>
+                  <div className="mt-1.5 text-sm sm:text-base text-foreground/80 leading-relaxed space-y-3">
                     <p>Yaşamın farklı dönemlerinde bireyler; ilişkiler, kariyer, aile yaşamı ve kişisel gelişim alanlarında çeşitli psikolojik zorluklarla karşılaşabilmektedir. Bu zorluklar zaman zaman kişinin yaşam doyumunu, işlevselliğini and ruhsal iyi oluşunu etkileyebilmektedir.</p>
-                    <p>Dila Dilara Aytekin; yetişkinlere yönelik psikolojik danışmanlık çalışmalarında kaygı, stres, öz güven sorunları, yaşam geçişleri, ilişki problemleri, duygusal yükler, karar verme süreçleri ve günlük yaşamda karşılaşılan psikolojik güçlükler gibi alanlarda destek sağlamaktadır. Danışmanlık sürecinde bireyin ihtiyaçlarını merkeze alan, güvenli ve destekleyici bir yaklaşım benimseyerek kişilerin psikolojik esneklik kazanmalarına, kendilerini daha yakından tanımalarına ve ruhsal iyi oluşlarını güçlendirmelerine eşlik etmektedir.</p>
+                    <p>Yetişkinlere yönelik psikolojik danışmanlık çalışmalarında kaygı, stres, öz güven sorunları, yaşam geçişleri, ilişki problemleri, duygusal yükler, karar verme süreçleri ve günlük yaşamda karşılaşılan psikolojik güçlükler gibi alanlarda destek sağlamaktadır. Danışmanlık sürecinde bireyin ihtiyaçlarını merkeze alan, güvenli ve destekleyici bir yaklaşım benimseyerek kişilerin psikolojik esneklik kazanmalarına, kendilerini daha yakından tanımalarına ve ruhsal iyi oluşlarını güçlendirmelerine eşlik etmektedir.</p>
                   </div>
                 </div>
               </div>
@@ -58,10 +58,10 @@ const Services = () => (
                   <GraduationCap className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Sınav Kaygısı ve Performans Süreçleri</h3>
-                  <div className="mt-1.5 text-xs sm:text-sm text-foreground/75 leading-relaxed space-y-3">
+                  <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground">Sınav Kaygısı ve Performans Süreçleri</h3>
+                  <div className="mt-1.5 text-sm sm:text-base text-foreground/80 leading-relaxed space-y-3">
                     <p>Ergenlik ve yetişkinlik döneminde akademik hedefler, sınavlar ve gelecek planları bireyler üzerinde yoğun bir baskı oluşturabilmektedir. Bu süreçte yalnızca akademik performans değil, öğrencinin psikolojik iyi oluşu, motivasyonu ve duygusal dayanıklılığı da başarı üzerinde önemli bir rol oynamaktadır.</p>
-                    <p>Dila Dilara Aytekin; sınav sürecindeki öğrencilere yönelik eğitim danışmanlığı çalışmalarında hedef belirleme, etkili çalışma alışkanlıkları geliştirme, zaman yönetimi, motivasyonu sürdürme, sınav kaygısıyla baş etme ve akademik süreci planlama konularında destek sunmaktadır. Amaç; öğrencilerin yalnızca sınava değil, aynı zamanda bu sürecin duygusal ve psikolojik yüklerine de sağlıklı bir şekilde hazırlanabilmelerine yardımcı olmaktır.</p>
+                    <p>Sınav sürecindeki öğrencilere yönelik eğitim danışmanlığı çalışmalarında hedef belirleme, etkili çalışma alışkanlıkları geliştirme, zaman yönetimi, motivasyonu sürdürme, sınav kaygısıyla baş etme ve akademik süreci planlama konularında destek sunmaktadır. Amaç; öğrencilerin yalnızca sınava değil, aynı zamanda bu sürecin duygusal ve psikolojik yüklerine de sağlıklı bir şekilde hazırlanabilmelerine yardımcı olmaktır.</p>
                   </div>
                 </div>
               </div>
@@ -103,9 +103,9 @@ const Services = () => (
                   <Heart className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Psikolojik Danışmanlık ve Psikolojik Destek</h3>
-                  <span className="block text-xs font-bold text-primary-dark uppercase tracking-wider mt-1">Sınav sürecinde duygusal iyi oluş, psikolojik esneklik ve içsel denge desteği</span>
-                  <p className="mt-2.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
+                  <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground">Psikolojik Danışmanlık ve Psikolojik Destek</h3>
+                  <span className="block text-xs sm:text-sm font-bold text-primary-dark uppercase tracking-wider mt-1">Sınav sürecinde duygusal iyi oluş, psikolojik esneklik ve içsel denge desteği</span>
+                  <p className="mt-2.5 text-sm sm:text-base text-foreground/80 leading-relaxed">
                     LGS ve YKS hazırlık sürecinde öğrencinin yalnızca akademik performansı değil, aynı zamanda duygusal dünyası ve içsel süreçleri de bütüncül bir yaklaşımla ele alınmaktadır. Bu süreçte öğrencinin sınav kaygısı, stres yönetimi, motivasyon dalgalanmaları ve erteleme davranışlarıyla baş etmesine destek olunur. Aynı zamanda odaklanma güçlükleri, hedef belirleme süreci ve özellikle psikolojik esneklik becerisinin geliştirilmesi üzerinde durulur. Öğrencinin zorlayıcı düşünce ve duygularla karşılaştığında onlarla mücadele etmek yerine onları daha sağlıklı bir şekilde yönetebilmesi ve süreci sürdürebilmesi hedeflenir. Böylece öğrenci yalnızca akademik olarak değil, duygusal olarak da daha dengeli ve işlevsel bir süreç deneyimler.
                   </p>
                 </div>
@@ -117,9 +117,9 @@ const Services = () => (
                   <GraduationCap className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-heading text-base sm:text-lg font-bold text-foreground">Eğitim Danışmanlığı ve Akademik Takip</h3>
-                  <span className="block text-xs font-bold text-primary-dark uppercase tracking-wider mt-1">Planlama, düzen ve sürdürülebilir çalışma sistemi</span>
-                  <p className="mt-2.5 text-xs sm:text-sm text-foreground/75 leading-relaxed">
+                  <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground">Eğitim Danışmanlığı ve Akademik Takip</h3>
+                  <span className="block text-xs sm:text-sm font-bold text-primary-dark uppercase tracking-wider mt-1">Planlama, düzen ve sürdürülebilir çalışma sistemi</span>
+                  <p className="mt-2.5 text-sm sm:text-base text-foreground/80 leading-relaxed">
                     LGS ve YKS hazırlık sürecindeki öğrenciler için bireyselleştirilmiş akademik takip ve eğitim danışmanlığı hizmeti sunulmaktadır. Bu süreçte öğrencinin hedeflerine uygun bir çalışma planı oluşturulur, haftalık ve günlük düzenin sürdürülebilir hale gelmesi desteklenir. Deneme sınavı analizleri üzerinden eksik kazanımlar belirlenir ve zaman yönetimi becerileri geliştirilerek verimli çalışma alışkanlığı kazandırılır. Süreç boyunca düzenli takip ve geri bildirimlerle öğrencinin akademik gelişimi yakından izlenir. Temel amaç, öğrencinin kendi potansiyeline uygun, sistemli ve sürdürülebilir bir çalışma düzeni kurmasını sağlamaktır.
                   </p>
                 </div>
