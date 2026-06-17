@@ -23,7 +23,7 @@ const Services = () => (
             <img
               src="/3.jpg"
               alt="Psikolojik Danışmanlık - Dila Dilara Aytekin"
-              className="h-full w-full object-cover transition-transform duration-700 scale-[1.1] hover:scale-[1.18]"
+              className="h-full w-full object-cover transition-transform duration-700 origin-[50%_54%] scale-[1.7] hover:scale-[1.78]"
               loading="lazy"
             />
             <div className="absolute inset-x-4 bottom-4 rounded-[1.5rem] border border-white/40 bg-white/80 p-4 shadow-soft backdrop-blur-md text-center">

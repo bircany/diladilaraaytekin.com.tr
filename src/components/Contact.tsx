@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="contact-panel relative overflow-hidden rounded-[2.5rem] px-6 py-12 sm:px-12 lg:px-16 lg:py-16">
           <div className="relative grid items-start gap-12 lg:grid-cols-[1fr_1.1fr]">
             {/* Sol Kolon - İletişim Bilgileri */}
-            <div className="space-y-8 flex flex-col justify-between h-full">
+            <div className="space-y-8">
               <div className="space-y-6">
                 <div>
                   <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-primary-dark">İletişim & Randevu</p>
@@ -94,16 +94,6 @@ const Contact = () => {
                     );
                   })}
                 </div>
-              </div>
-
-              {/* Portrait Image (14.jpg) to use the last photo */}
-              <div className="relative overflow-hidden rounded-[2rem] border-4 border-white bg-white/40 shadow-soft aspect-[3/2] w-full max-w-[420px] mx-auto lg:mx-0">
-                <img
-                  src="/14.jpg"
-                  alt="Dila Dilara Aytekin"
-                  className="h-full w-full object-cover scale-[1.5] hover:scale-[1.58] transition-transform duration-700"
-                  loading="lazy"
-                />
               </div>
             </div>
 
