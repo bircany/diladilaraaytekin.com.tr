@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, Phone, X, Instagram } from "lucide-react";
+import { Menu, Phone, X, Instagram, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { trackContactConversion } from "@/lib/googleTag";
 
@@ -48,6 +48,16 @@ const Navbar = () => {
 
         <div className="hidden xl:flex items-center gap-2 xl:gap-3 shrink-0">
           <a 
+            href="https://wa.me/905312353886" 
+            target="_blank" 
+            rel="noreferrer" 
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/20 bg-white/50 text-foreground transition-all hover:bg-primary hover:text-white"
+            onClick={() => trackContactConversion("whatsapp", "navbar_desktop")}
+            title="WhatsApp Mesaj Gönder"
+          >
+            <MessageCircle className="h-5 w-5 text-primary-dark hover:text-inherit" />
+          </a>
+          <a 
             href="https://www.instagram.com/psk.dan.diladilaraytekin?igsh=MXY0NHdxbTlua2NzaQ==" 
             target="_blank" 
             rel="noreferrer" 
@@ -65,15 +75,27 @@ const Navbar = () => {
           </a>
         </div>
 
-        <button
-          type="button"
-          onClick={() => setIsOpen((value) => !value)}
-          className="rounded-full p-2 text-foreground xl:hidden"
-          aria-label="Menüyü aç veya kapat"
-          aria-expanded={isOpen}
-        >
-          {isOpen ? <X /> : <Menu />}
-        </button>
+        <div className="flex xl:hidden items-center gap-2">
+          <a 
+            href="https://wa.me/905312353886" 
+            target="_blank" 
+            rel="noreferrer" 
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/20 bg-white/50 text-foreground"
+            onClick={() => trackContactConversion("whatsapp", "navbar_mobile_top")}
+            title="WhatsApp Mesaj Gönder"
+          >
+            <MessageCircle className="h-5 w-5 text-primary-dark" />
+          </a>
+          <button
+            type="button"
+            onClick={() => setIsOpen((value) => !value)}
+            className="rounded-full p-2 text-foreground"
+            aria-label="Menüyü aç veya kapat"
+            aria-expanded={isOpen}
+          >
+            {isOpen ? <X /> : <Menu />}
+          </button>
+        </div>
       </div>
 
       {isOpen && (
