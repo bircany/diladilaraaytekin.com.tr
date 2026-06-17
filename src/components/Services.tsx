@@ -105,9 +105,10 @@ const Services = () => (
                 <div>
                   <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground">Psikolojik Danışmanlık ve Psikolojik Destek</h3>
                   <span className="block text-xs sm:text-sm font-bold text-primary-dark uppercase tracking-wider mt-1">Sınav sürecinde duygusal iyi oluş, psikolojik esneklik ve içsel denge desteği</span>
-                  <p className="mt-2.5 text-sm sm:text-base text-foreground/80 leading-relaxed">
-                    LGS ve YKS hazırlık sürecinde öğrencinin yalnızca akademik performansı değil, aynı zamanda duygusal dünyası ve içsel süreçleri de bütüncül bir yaklaşımla ele alınmaktadır. Bu süreçte öğrencinin sınav kaygısı, stres yönetimi, motivasyon dalgalanmaları ve erteleme davranışlarıyla baş etmesine destek olunur. Aynı zamanda odaklanma güçlükleri, hedef belirleme süreci ve özellikle psikolojik esneklik becerisinin geliştirilmesi üzerinde durulur. Öğrencinin zorlayıcı düşünce ve duygularla karşılaştığında onlarla mücadele etmek yerine onları daha sağlıklı bir şekilde yönetebilmesi ve süreci sürdürebilmesi hedeflenir. Böylece öğrenci yalnızca akademik olarak değil, duygusal olarak da daha dengeli ve işlevsel bir süreç deneyimler.
-                  </p>
+                  <div className="mt-2.5 text-sm sm:text-base text-foreground/80 leading-relaxed space-y-3">
+                    <p>LGS ve YKS hazırlık sürecinde öğrencinin yalnızca akademik performansı değil, aynı zamanda duygusal dünyası ve içsel süreçleri de bütüncül bir yaklaşımla ele alınmaktadır. Bu süreçte öğrencinin sınav kaygısı, stres yönetimi, motivasyon dalgalanmaları ve erteleme davranışlarıyla baş etmesine destek olunur.</p>
+                    <p>Aynı zamanda odaklanma güçlükleri, hedef belirleme süreci ve özellikle psikolojik esneklik becerisinin geliştirilmesi üzerinde durulur. Öğrencinin zorlayıcı düşünce ve duygularla karşılaştığında onlarla mücadele etmek yerine onları daha sağlıklı bir şekilde yönetebilmesi ve süreci sürdürebilmesi hedeflenir. Böylece öğrenci yalnızca akademik olarak değil, duygusal olarak da daha dengeli ve işlevsel bir süreç deneyimler.</p>
+                  </div>
                 </div>
               </div>
 
@@ -119,9 +120,10 @@ const Services = () => (
                 <div>
                   <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground">Eğitim Danışmanlığı ve Akademik Takip</h3>
                   <span className="block text-xs sm:text-sm font-bold text-primary-dark uppercase tracking-wider mt-1">Planlama, düzen ve sürdürülebilir çalışma sistemi</span>
-                  <p className="mt-2.5 text-sm sm:text-base text-foreground/80 leading-relaxed">
-                    LGS ve YKS hazırlık sürecindeki öğrenciler için bireyselleştirilmiş akademik takip ve eğitim danışmanlığı hizmeti sunulmaktadır. Bu süreçte öğrencinin hedeflerine uygun bir çalışma planı oluşturulur, haftalık ve günlük düzenin sürdürülebilir hale gelmesi desteklenir. Deneme sınavı analizleri üzerinden eksik kazanımlar belirlenir ve zaman yönetimi becerileri geliştirilerek verimli çalışma alışkanlığı kazandırılır. Süreç boyunca düzenli takip ve geri bildirimlerle öğrencinin akademik gelişimi yakından izlenir. Temel amaç, öğrencinin kendi potansiyeline uygun, sistemli ve sürdürülebilir bir çalışma düzeni kurmasını sağlamaktır.
-                  </p>
+                  <div className="mt-2.5 text-sm sm:text-base text-foreground/80 leading-relaxed space-y-3">
+                    <p>LGS ve YKS hazırlık sürecindeki öğrenciler için bireyselleştirilmiş akademik takip ve eğitim danışmanlığı hizmeti sunulmaktadır. Bu süreçte öğrencinin hedeflerine uygun bir çalışma planı oluşturulur, haftalık ve günlük düzenin sürdürülebilir hale gelmesi desteklenir.</p>
+                    <p>Deneme sınavı analizleri üzerinden eksik kazanımlar belirlenir ve zaman yönetimi becerileri geliştirilerek verimli çalışma alışkanlığı kazandırılır. Süreç boyunca düzenli takip ve geri bildirimlerle öğrencinin akademik gelişimi yakından izlenir. Temel amaç, öğrencinin kendi potansiyeline uygun, sistemli ve sürdürülebilir bir çalışma düzeni kurmasını sağlamaktır.</p>
+                  </div>
                 </div>
               </div>
             </div>
